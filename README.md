@@ -44,6 +44,8 @@ docker ps    list running containers
 
 docker info
 
+docker pull <image-name>
+
 sudo usermod -a -G docker test-user adding user to the docker group.
 
 docker images
