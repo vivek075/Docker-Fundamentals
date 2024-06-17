@@ -36,6 +36,8 @@ _Docker Hub_: A cloud-based repository where Docker users can store and share Do
 
 sudo service docker <start/stop>
 
+docker --help
+
 docker --version
 
 docker ps    list running containers
