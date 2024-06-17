@@ -34,7 +34,7 @@ _Docker Hub_: A cloud-based repository where Docker users can store and share Do
 
 **Useful Commands**
 
-sudo service docker <start/stop>
+sudo service docker `<start/stop>`
 
 docker --help
 
@@ -44,10 +44,12 @@ docker ps    list running containers
 
 docker info
 
-docker pull <image-name>
+docker pull `<image-name>`
 
 sudo usermod -a -G docker test-user adding user to the docker group.
 
 docker images
 
-docker run <image-name>
+docker run `<image-name>`
+
+docker rmi --help                   removes 1 or more images
