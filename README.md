@@ -55,3 +55,9 @@ _Docker Hub_: A cloud-based repository where Docker users can store and share Do
 `docker run <image-name>`
 
 `docker rmi --help`                   removes 1 or more images
+
+`docker stats`
+
+`docker system df`
+
+`docker system prune` be cautious while using this command 
