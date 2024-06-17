@@ -50,6 +50,8 @@ _Docker Hub_: A cloud-based repository where Docker users can store and share Do
 
 `docker images`
 
+- `docker images -q` will get image-id
+
 `docker run <image-name>`
 
 `docker rmi --help`                   removes 1 or more images
