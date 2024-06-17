@@ -1,4 +1,7 @@
 # Docker-Fundamentals
+
+`https://docs.docker.com/`
+
 This repo will cover the concepts of Docker.
 
 Docker is an open-source platform designed to automate the deployment, scaling, and management of applications using containerization. Containers are lightweight, stand-alone, and executable software packages that include everything needed to run an application, such as the code, runtime, system tools, libraries, and settings.
@@ -27,3 +30,19 @@ _Docker Images_: Read-only templates used to create containers. Images are built
 _Docker Containers_: Instances of Docker images that run applications. They are isolated environments where the application code and dependencies are executed.
 
 _Docker Hub_: A cloud-based repository where Docker users can store and share Docker images.
+
+**Useful Commands**
+
+sudo service docker <start/stop>
+
+docker --version
+
+docker ps    list running containers
+
+docker info
+
+sudo usermod -a -G docker test-user adding user to the docker group.
+
+docker images
+
+docker run <image-name>
